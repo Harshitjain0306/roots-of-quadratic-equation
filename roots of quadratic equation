@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int a,b,c;
+    printf("Enter the values of a , b , c respectively");
+    scanf("%d %d %d",&a,&b,&c);
+    float i,j;
+    i=(-b+sqrt(b*b-4 *a*c))/2;
+    j=(-b-sqrt(b*b-4*a*c))/2;
+    printf("Roots are %f, %f",i,j);
+    return 0;
+}
